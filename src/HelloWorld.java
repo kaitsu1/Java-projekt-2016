@@ -4,6 +4,6 @@
 public class HelloWorld {
     public static void main(String args[]) {
         System.out.println("Hello World!");
-        System.out.println("Julge Pealehakkamine On Pool Voitu!");
+        System.out.println("Julge pealehakkamine on pool voitu!");
     }
 }
