@@ -7,12 +7,10 @@ public class Tooted {
     public static void main(String[] args) {
         Scanner klaviatuur = new Scanner(System.in);
         System.out.println("Vali toode ja vajuta klahvi");
-        String toode = sc.nextLine();
+        String toode = klaviatuur.nextLine();
         System.out.println("Sisesta kogus-mitu tk?");
-        int kogus = sc.nextInt();
+        int kogus = klaviatuur.nextInt();
 
-        System.out.println("Sisesta enda sünniaasta:");
-        int synniaasta = klaviatuur.nextInt();
     String toode1 = "moskva sai";
     String toode2 = "kohupiima korp";
     String toode3 = "õunakook";
@@ -28,9 +26,7 @@ public class Tooted {
     String toode13 = "viineripirukas";
     String toode14 = "minipitsa";
     String toode15 = "ekleer";
-
-
-
+        String toode16 = "moorapea";
     }
 
 
