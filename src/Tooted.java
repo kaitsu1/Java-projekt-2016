@@ -5,11 +5,9 @@ import java.util.Scanner;
  */
 public class Tooted {
     public static void main(String[] args) {
-        Scanner klaviatuur = new Scanner (System.in);
+        Scanner klaviatuur = new Scanner(System.in);
         System.out.println("Vali toode ja vajuta sisesta ");
-        String toode = klaviatuur. nextLine();
-        System.out.println("Sisesta kogus- mitu tk?");
-        int kogus = klaviatuur.nextInt();
+        String toode = klaviatuur.nextLine();
 
         String toode1 = "moskva sai";
         String toode2 = "kohupiima korp";
@@ -27,6 +25,21 @@ public class Tooted {
         String toode14 = "minipitsa";
         String toode15 = "ekleer";
         String toode16 = "moorapea";
+
+        System.out.println("Sisesta kogus- mitu tk?");
+        int kogus = klaviatuur.nextInt();
+
+        System.out.println("Arvutan ostusumma");
+        /* int tootehind = klaviatuur.nextInt();
+        int ostusumma = tootehind * kogus;
+        */
+
+        System.out.println("Sisesta saadud rahasumma");
+        double saadudraha = klaviatuur.nextInt();
+
+        /* arvutan tagasiantava summma
+        int tagastatavRaha = saadudraha - */
+
 
     }
 
