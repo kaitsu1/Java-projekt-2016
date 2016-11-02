@@ -8,6 +8,8 @@ public class Tooted {
         Scanner klaviatuur = new Scanner(System.in);
         System.out.println("Vali toode ja vajuta sisesta ");
         String toode = klaviatuur.nextLine();
+        int saadudRaha;
+        int ostuSumma;
 
         String toode1 = "moskva sai";
         String toode2 = "kohupiima korp";
@@ -29,16 +31,34 @@ public class Tooted {
         System.out.println("Sisesta kogus- mitu tk?");
         int kogus = klaviatuur.nextInt();
 
+        //arvutan ostusumma
         System.out.println("Arvutan ostusumma");
-        /* int tootehind = klaviatuur.nextInt();
-        int ostusumma = tootehind * kogus;
-        */
+
+        int tootehind = 1;
+        ostuSumma = kogus * tootehind;
+        System.out.println(ostuSumma);
+
 
         System.out.println("Sisesta saadud rahasumma");
-        double saadudraha = klaviatuur.nextInt();
+        saadudRaha = klaviatuur.nextInt();
 
-        /* arvutan tagasiantava summma
-        int tagastatavRaha = saadudraha - */
+        //kas on vaja tagasi anda või juurde küsida?
+ /*       int SaadudRaha = 101;
+        int ostuSumma = 100;*/
+        int rahaTagasi = saadudRaha - ostuSumma;
+        if (saadudRaha == ostuSumma) {
+            System.out.println("Täname ostu eest!");
+         } else if (saadudRaha < ostuSumma) {
+             System.out.println("Küsi raha juurde!");
+         } else if (saadudRaha > ostuSumma) {
+            System.out.println("Anna tagasi");
+            int tagastatavRaha = saadudRaha - ostuSumma;
+            System.out.println(tagastatavRaha);
+         }
+
+        // arvutan tagasiantava summma System.out.println("Tagasiantav summa");
+
+
 
 
     }
