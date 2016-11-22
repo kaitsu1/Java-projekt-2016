@@ -15,14 +15,14 @@ import javafx.stage.Stage;
  */
 public class Klahvid extends Application {
     GridPane laud;
-    int lauaPikkusRuutudes =4;
+    int klahveHorisontaalselt =4;
 
     @Override
     public void start(Stage primaryStage) throws Exception {
         seadistaAken();
         lisaTooteklahvid();
         reageeriKlikile();
-        
+
     }
 
     private void reageeriKlikile() {
@@ -36,8 +36,8 @@ public class Klahvid extends Application {
     }
 
     private void lisaTooteklahvid() {
-        for (int i =0; i < lauaPikkusRuutudes ; i++) {
-            for (int j = 0; j <lauaPikkusRuutudes ; j++) {
+        for (int i =0; i < klahveHorisontaalselt ; i++) {
+            for (int j = 0; j <klahveHorisontaalselt ; j++) {
                 Rectangle ruut = new Rectangle(150, 150);
                 ruut.setStroke(Color.WHITE);
                 ruut.setStrokeWidth(Double.valueOf(5));
