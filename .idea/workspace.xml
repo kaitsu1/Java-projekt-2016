@@ -2,8 +2,36 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f4e93991-6ae4-46c2-8be1-a24c40014fa3" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pohikaust/Klahvid.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Klahvid.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Klahvipildid.java" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/src/pildid/2611029000001.jpg" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main" afterPath="$PROJECT_DIR$/src/main" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/Kassa.java" afterPath="$PROJECT_DIR$/src/pohikaust/Kassa.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/pildid/avaleht.png" afterPath="$PROJECT_DIR$/src/pohikaust/pildid/avaleht.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/pildid/dallasesai.jpg" afterPath="$PROJECT_DIR$/src/pohikaust/pildid/dallasesai.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/pildid/dallasesai.png" afterPath="$PROJECT_DIR$/src/pohikaust/pildid/dallasesai.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/pildid/esileht2.png" afterPath="$PROJECT_DIR$/src/pohikaust/pildid/esileht2.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/pildid/kaneelirull.jpg" afterPath="$PROJECT_DIR$/src/pohikaust/pildid/kaneelirull.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/pildid/kaneelirull.png" afterPath="$PROJECT_DIR$/src/pohikaust/pildid/kaneelirull.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/pildid/kirsisai.jpg" afterPath="$PROJECT_DIR$/src/pohikaust/pildid/kirsisai.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/pildid/klahvAlusta.png" afterPath="$PROJECT_DIR$/src/pohikaust/pildid/sisene.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/pildid/kohupiimasai.jpg" afterPath="$PROJECT_DIR$/src/pohikaust/pildid/kohupiimasai.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/pildid/kohupiimasai.png" afterPath="$PROJECT_DIR$/src/pohikaust/pildid/kohupiimasai.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/pildid/moonirull.jpg" afterPath="$PROJECT_DIR$/src/pohikaust/pildid/moonirull.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/pildid/moonirull.png" afterPath="$PROJECT_DIR$/src/pohikaust/pildid/moonirull.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/pildid/moskvasai.jpg" afterPath="$PROJECT_DIR$/src/pohikaust/pildid/moskvasai.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/pildid/moskvasai.png" afterPath="$PROJECT_DIR$/src/pohikaust/pildid/moskvasai.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/pildid/rosinasai.jpg" afterPath="$PROJECT_DIR$/src/pohikaust/pildid/rosinasai.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/pildid/rosinasai.png" afterPath="$PROJECT_DIR$/src/pohikaust/pildid/rosinasai.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/pildid/sai.png" afterPath="$PROJECT_DIR$/src/pohikaust/pildid/sai.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/pildid/sai_200_200.png" afterPath="$PROJECT_DIR$/src/pohikaust/pildid/sai_200_200.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/pildid/sai_400_400.jpg" afterPath="$PROJECT_DIR$/src/pohikaust/pildid/sai_400_400.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/pildid/suhkrukringel.jpg" afterPath="$PROJECT_DIR$/src/pohikaust/pildid/suhkrukringel.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/pildid/taust.png" afterPath="$PROJECT_DIR$/src/pohikaust/pildid/taust.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/pildid/uus.png" afterPath="$PROJECT_DIR$/src/pohikaust/pildid/uus.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/pildid/õunastruudel.jpg" afterPath="$PROJECT_DIR$/src/pohikaust/pildid/õunastruudel.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Java-projekt-2016.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -24,99 +52,40 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Klahvid.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Klahvid.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="38" column="48" selection-start-line="38" selection-start-column="48" selection-end-line="38" selection-end-column="48" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Klahvipildid.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Klahvipildid.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Tooted.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Tooted.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Toode.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Toode.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="avaleht.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/pildid/avaleht.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ToodeteNimekiri.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ToodeteNimekiri.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="31" column="59" selection-start-line="31" selection-start-column="59" selection-end-line="31" selection-end-column="59" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Pood.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Pood.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Kassa.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/Kassa.java">
+        <entry file="file://$PROJECT_DIR$/src/pohikaust/Kassa.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
-              <folding />
+            <state relative-caret-position="-205">
+              <caret line="91" column="55" selection-start-line="91" selection-start-column="55" selection-end-line="91" selection-end-column="55" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+      <file leaf-file-name="Klahvid.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/pohikaust/Klahvid.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HelloWorld.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/HelloWorld.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-              <folding />
+            <state relative-caret-position="210">
+              <caret line="64" column="96" selection-start-line="64" selection-start-column="96" selection-end-line="64" selection-end-column="96" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#3145#3146#0" expanded="true" />
+                <element signature="e#3180#3181#0" expanded="true" />
+                <element signature="e#3221#3222#0" expanded="true" />
+                <element signature="e#3253#3254#0" expanded="true" />
+                <element signature="e#3294#3295#0" expanded="true" />
+                <element signature="e#3326#3327#0" expanded="true" />
+                <element signature="e#3369#3370#0" expanded="true" />
+                <element signature="e#3403#3404#0" expanded="true" />
+                <element signature="e#3445#3446#0" expanded="true" />
+                <element signature="e#3478#3479#0" expanded="true" />
+                <element signature="e#3519#3520#0" expanded="true" />
+                <element signature="e#3551#3552#0" expanded="true" />
+                <element signature="e#3590#3591#0" expanded="true" />
+                <element signature="e#3624#3625#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -131,7 +100,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/src" />
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -145,18 +114,21 @@
         <option value="$PROJECT_DIR$/src/Klahv/Klahv.java" />
         <option value="$PROJECT_DIR$/src/Klahv/Nupp.java" />
         <option value="$PROJECT_DIR$/src/Nupud.java" />
-        <option value="$PROJECT_DIR$/src/Klahvid.java" />
         <option value="$PROJECT_DIR$/src/Klahvipildid.java" />
         <option value="$PROJECT_DIR$/src/main/pildid/Kassa.java" />
+        <option value="$PROJECT_DIR$/src/Klahvid.java" />
+        <option value="$PROJECT_DIR$/src/mainvana/Kassa.java" />
         <option value="$PROJECT_DIR$/src/main/Kassa.java" />
+        <option value="$PROJECT_DIR$/src/Klahviaken.java" />
+        <option value="$PROJECT_DIR$/src/pohikaust/Kassa.java" />
+        <option value="$PROJECT_DIR$/src/pohikaust/Klahvid.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="744" />
+    <option name="x" value="-7" />
+    <option name="width" value="1378" />
+    <option name="height" value="735" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -183,6 +155,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -229,23 +203,28 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
+              <option name="myItemId" value="pohikaust" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+  </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\kaits\IdeaProjects\Java-projekt-2016\src\pildid" />
-    </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="Klahv" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\kaits\IdeaProjects\Java-projekt-2016\src\main" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\kaits\IdeaProjects\Java-projekt-2016\src\pildid" />
     </key>
   </component>
   <component name="RunManager" selected="Application.Kassa">
@@ -264,9 +243,9 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="Klahvid" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="Klahviaken" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="Klahvid" />
+      <option name="MAIN_CLASS_NAME" value="Klahviaken" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -297,11 +276,11 @@
     <configuration default="false" name="Kassa" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="main.*" />
+          <option name="PATTERN" value="pohikaust.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="main.Kassa" />
+      <option name="MAIN_CLASS_NAME" value="pohikaust.Kassa" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -573,16 +552,17 @@
     </configuration>
     <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Application.Pood" />
-      <item index="1" class="java.lang.String" itemvalue="Application.Klahvid" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Klahviaken" />
       <item index="2" class="java.lang.String" itemvalue="Application.Tooted" />
       <item index="3" class="java.lang.String" itemvalue="Application.Kassa" />
     </list>
     <recent_temporary>
-      <list size="4">
+      <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Application.Kassa" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Klahvid" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Tooted" />
-        <item index="3" class="java.lang.String" itemvalue="Application.Pood" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Klahviaken" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Kassa" />
+        <item index="3" class="java.lang.String" itemvalue="Application.Tooted" />
+        <item index="4" class="java.lang.String" itemvalue="Application.Pood" />
       </list>
     </recent_temporary>
   </component>
@@ -603,7 +583,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-7" y="0" width="1378" height="735" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -611,14 +591,14 @@
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32890365" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3207856" sideWeight="0.5060514" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31893688" sideWeight="0.5212443" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3207856" sideWeight="0.49394855" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31893688" sideWeight="0.47875568" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24508321" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24506828" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24961832" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -650,8 +630,13 @@
           <url>jar://C:/Program Files/Java/jdk1.8.0_102/javafx-src.zip!/javafx/event/EventHandler.java</url>
           <properties />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/pohikaust/Klahvid.java</url>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="1" />
+      <option name="time" value="2" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -660,72 +645,10 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Klahvipildid.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Tooted.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Toode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/pildid/avaleht.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ToodeteNimekiri.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="31" column="59" selection-start-line="31" selection-start-column="59" selection-end-line="31" selection-end-column="59" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Pood.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Kassa.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/HelloWorld.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Klahvid.java">
+    <entry file="file://$PROJECT_DIR$/src/Klahviaken.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
           <caret line="38" column="48" selection-start-line="38" selection-start-column="48" selection-end-line="38" selection-end-column="48" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -733,7 +656,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -741,7 +663,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -753,11 +674,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/pildid/avaleht.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mainvana/pildid/avaleht.png" />
     <entry file="file://$PROJECT_DIR$/src/ToodeteNimekiri.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
@@ -774,20 +691,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Kassa.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mainvana/Kassa.java" />
     <entry file="file://$PROJECT_DIR$/src/pildid/2611029000001.jpg" />
-    <entry file="file://$PROJECT_DIR$/src/Klahvid.java">
+    <entry file="file://$PROJECT_DIR$/src/Klahviaken.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -795,7 +704,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -803,7 +711,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -832,11 +739,10 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pildid/2611029000001.jpg" />
-    <entry file="file://$PROJECT_DIR$/src/Klahvid.java">
+    <entry file="file://$PROJECT_DIR$/src/Klahviaken.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -844,7 +750,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -852,7 +757,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -895,6 +799,77 @@
     <entry file="file://$PROJECT_DIR$/src/Klahv/Klahv.java" />
     <entry file="file://$PROJECT_DIR$/src/Klahv/Nupp.java" />
     <entry file="file://$PROJECT_DIR$/src/Nupud.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/pildid/pildid/avaleht.png" />
+    <entry file="file://$PROJECT_DIR$/src/main/pildid/pildid/Kassa.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/pildid/Kassa.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/asdfasdf.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/pildid/buttonVasta.png" />
+    <entry file="file://$PROJECT_DIR$/src/mainvana/pildid/avaleht.png" />
+    <entry file="file://$PROJECT_DIR$/src/pildid/2611029000001.jpg" />
+    <entry file="file://$PROJECT_DIR$/src/HelloWorld.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mainvana/Kassa.java" />
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pohikaust/pildid/Klahvid.java" />
+    <entry file="file://$USER_HOME$/KOOLI ASJAD/Klahvid.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Klahviaken.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Klahvipildid.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="14" column="42" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Pood.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Toode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="33">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ToodeteNimekiri.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="31" column="59" selection-start-line="31" selection-start-column="59" selection-end-line="31" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Tooted.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -903,78 +878,63 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ToodeteNimekiri.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="31" column="59" selection-start-line="31" selection-start-column="59" selection-end-line="31" selection-end-column="59" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Klahvid.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="38" column="48" selection-start-line="38" selection-start-column="48" selection-end-line="38" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Klahvipildid.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/pildid/pildid/avaleht.png" />
-    <entry file="file://$PROJECT_DIR$/src/main/pildid/pildid/Kassa.java" />
-    <entry file="file://$PROJECT_DIR$/src/Pood.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/pildid/Kassa.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/asdfasdf.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/pildid/buttonVasta.png" />
-    <entry file="file://$PROJECT_DIR$/src/Toode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/pildid/avaleht.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pildid/2611029000001.jpg" />
-    <entry file="file://$PROJECT_DIR$/src/HelloWorld.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Kassa.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$USER_HOME$/KOOLI ASJAD/Kassa.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_102/javafx-src.zip!/javafx/scene/image/Image.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="1117" column="0" selection-start-line="1117" selection-start-column="0" selection-end-line="1117" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pohikaust/pildid/sisene.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pohikaust/pildid/uus.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pohikaust/Kassa.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-205">
+          <caret line="91" column="55" selection-start-line="91" selection-start-column="55" selection-end-line="91" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pohikaust/Klahvid.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="64" column="96" selection-start-line="64" selection-start-column="96" selection-end-line="64" selection-end-column="96" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3145#3146#0" expanded="true" />
+            <element signature="e#3180#3181#0" expanded="true" />
+            <element signature="e#3221#3222#0" expanded="true" />
+            <element signature="e#3253#3254#0" expanded="true" />
+            <element signature="e#3294#3295#0" expanded="true" />
+            <element signature="e#3326#3327#0" expanded="true" />
+            <element signature="e#3369#3370#0" expanded="true" />
+            <element signature="e#3403#3404#0" expanded="true" />
+            <element signature="e#3445#3446#0" expanded="true" />
+            <element signature="e#3478#3479#0" expanded="true" />
+            <element signature="e#3519#3520#0" expanded="true" />
+            <element signature="e#3551#3552#0" expanded="true" />
+            <element signature="e#3590#3591#0" expanded="true" />
+            <element signature="e#3624#3625#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
