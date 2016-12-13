@@ -68,11 +68,12 @@ public class Kassa extends Application {
 
         // Siin textarea sees hakatakse kuvama tooteid
         ostuKorv = new TextArea();
-        ostuKorv.setPrefColumnCount(2);
+        ostuKorv.setPrefColumnCount(1);
         ostuKorv.setBackground(Background.EMPTY);
+        ostuKorv.setEditable(false);
         ostuKorv.setWrapText(true);
         ostuKorv.setFont(Font.font("Serif", 40));
-        grid.add(ostuKorv, 5, 1, 5, 2);
+        grid.add(ostuKorv, 6, 2, 5, 2);
 
         Klahvid klahvistik = new Klahvid(ostuKorv, this);
         looKlahvistik(klahvistik);;
@@ -90,6 +91,7 @@ public class Kassa extends Application {
         grid.add(klahvistik.getKaneeliRullLabel(), 2, 3);
         grid.add(klahvistik.getDallaseSaiLabel(), 3, 3);
         grid.add(klahvistik.getMoskvaSaiLabel(), 4, 3);
+        grid.add(klahvistik.getKlahvLopetaOst(), 2, 5);
         grid.add(klahvistik.getKlahvUusOst(), 2, 4);
     }
 
