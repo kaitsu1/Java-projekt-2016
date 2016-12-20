@@ -22,28 +22,36 @@ public class Klahvid {
     Button moskvaSai;
     Button klahvLopetaOst;
     Button klahvUusOst;
+    //muutujad iga toote positsiooni määramiseks ostunimekirjas, algväärtustatakse esimesel nupuvajutusel
     int offSet1= -1, offSet2= -1, offSet3= -1, offSet4= -1, offSet5= -1, offSet6 = -1, offSet7 = -1;
+    //muutujad iga toote loendamiseks, kui toote nupule vajutatakse rohkem kui korra, samuti lõpphinna arvutamiseks
     int counter1= 0, counter2= 0, counter3= 0, counter4= 0, counter5= 0, counter6 = 0;
-    //Button klahvLopetaPaev;
 
     public Klahvid(TextArea cartField, Kassa currentGame) {
+
         ImageView klahv1 = new ImageView(new Image("pohikaust/pildid/kohupiimasai.png"));
         kohupiimaSai = new Button("", klahv1);
-        double price1 = 0.39;
-
+        double price1 = 0.39; //toote hind
         kohupiimaSai.setOnAction(event -> {
-            counter1++;
-            String nimekiri1 = counter1+"x Kohupiimapirukas "+price1+"€";
+            counter1++; //loendab toote nupule vajutamisi
+            String nimekiri1 = counter1+"x Kohupiimapirukas "+price1+"€"; //koostab ostunimekirja mineva teksti
+            /*kuna toote asukoht ostunimekirjas määratakse esimesel toote nupule vajutamisel, kasutades selleks
+              TextArea sisu pikkust, on vaja hoolitseda, et nimekiri ei läheks katki, kui toodete arv kasvab ühest
+              märgist kahe või kolme märgini. Selleks lisame iga toote tekstile vastava arvu tühikuid*/
             if (counter1 < 10) nimekiri1 = nimekiri1+"  ";
             if (10<=counter1 && counter1<100) nimekiri1 = nimekiri1+" ";
-            nimekiri1=nimekiri1+"\n";
-            if (offSet1 == -1) {offSet1 = cartField.getLength();
-                cartField.appendText(nimekiri1);}
+            nimekiri1=nimekiri1+"\n"; //iga toode eraldi real
+            if (offSet1 == -1) {
+                offSet1 = cartField.getLength(); //algväärtustame toote teksti asukoha ostunimekirjas
+                cartField.appendText(nimekiri1); //lisame toote teksti ostunimekirja
+            }
+            //kui toode oli juba nimekirjas, muudame tekstis toodete arvu
             else cartField.replaceText(offSet1, (offSet1+nimekiri1.length()), nimekiri1);
         });
         kohupiimaSai.setPadding(Insets.EMPTY);
         kohupiimaSai.setStyle("-fx-background-color: transparent");
 
+        //klahv2-klahv6 on sama loogikaga nagu klahv1
         ImageView klahv2 = new ImageView(new Image("pohikaust/pildid/rosinasai.png"));
         rosinaSai = new Button("", klahv2);
         double price2 = 0.30;
@@ -57,14 +65,12 @@ public class Klahvid {
                 cartField.appendText(nimekiri2);}
             else cartField.replaceText(offSet2, (offSet2+nimekiri2.length()), nimekiri2);
         });
-
         rosinaSai.setPadding(Insets.EMPTY);
         rosinaSai.setStyle("-fx-background-color: transparent");
 
         ImageView klahv3 = new ImageView(new Image("pohikaust/pildid/moonirull.png"));
         mooniRull = new Button("", klahv3);
         double price3 = 0.36;
-
         mooniRull.setOnAction(event -> {
             counter3++;
             String nimekiri3 = counter3+"x Moonirull "+price3+"€";
@@ -75,14 +81,12 @@ public class Klahvid {
                 cartField.appendText(nimekiri3);}
             else cartField.replaceText(offSet3, (offSet3+nimekiri3.length()), nimekiri3);
         });
-
         mooniRull.setPadding(Insets.EMPTY);
         mooniRull.setStyle("-fx-background-color: transparent");
 
         ImageView klahv4 = new ImageView(new Image("pohikaust/pildid/kaneelirull.png"));
         kaneeliRull = new Button("", klahv4);
         double price4 = 0.32;
-
         kaneeliRull.setOnAction(event -> {
             counter4++;
             String nimekiri4 = counter4+"x Kaneelirull "+price4+"€";
@@ -115,7 +119,6 @@ public class Klahvid {
         ImageView klahv6 = new ImageView(new Image("pohikaust/pildid/moskvasai.png"));
         moskvaSai = new Button("", klahv6);
         double price6 = 0.37;
-
         moskvaSai.setOnAction(event -> {
             counter6++;
             String nimekiri6 = counter6+"x Moskva sai "+price6+"€";
@@ -129,18 +132,24 @@ public class Klahvid {
         moskvaSai.setPadding(Insets.EMPTY);
         moskvaSai.setStyle("-fx-background-color: transparent");
 
-        ImageView lopeta = new ImageView(new Image("main/pildid/lopeta.png"));
+        // klahv "Lõpeta ost" lööb ostunimekirja kokku ja keelab edasise toodete lisamise
+        ImageView lopeta = new ImageView(new Image("pohikaust/pildid/lopeta.png"));
         klahvLopetaOst = new Button("", lopeta);
         klahvLopetaOst.setOnAction(event -> {
+            //hinna viisakaks ümardamiseks kasutame kümnendmurru formaati, kaks kohta pärast koma
             DecimalFormat df = new DecimalFormat("###.##");
+            //ostukorvi kogusumma jaoks korrutame toodete hinna loendatud nupuvajutuste arvuga
+            //kui mõnd toodet ei valitud, on selle loendur 0 nagu algul defineeritud
             double kokku = (counter1*price1+counter2*price2+counter3*price3+counter4*price4+counter5*price5+counter6*price6);
-            String nimekiri7 = "\n Kokku: "+ df.format(kokku)+"€\n";
+            String nimekiri7 = "\n Kokku: "+ df.format(kokku)+"€\n";//koostame lõpphinna teksti
+            //keelame tooteklahvide kasutamise, kuna ostukorv on suletud
             kohupiimaSai.setDisable(true);
             rosinaSai.setDisable(true);
             mooniRull.setDisable(true);
             kaneeliRull.setDisable(true);
             dallaseSai.setDisable(true);
             moskvaSai.setDisable(true);
+            //paigutame lõpphinna teksti ostunimekirja lõppu
             if (offSet7 == -1) {offSet7 = cartField.getLength();
                 cartField.appendText(nimekiri7);}
             else cartField.replaceText(offSet7, (offSet7+nimekiri7.length()), nimekiri7);
@@ -148,17 +157,19 @@ public class Klahvid {
         klahvLopetaOst.setPadding(Insets.EMPTY);
         klahvLopetaOst.setStyle("-fx-background-color: transparent");
 
-
+        //Klahv "Uus ost" tühjendab olemasoleva ostunimekirja ja võimaldab uuesti tootenuppude kasutamise
         ImageView uus = new ImageView(new Image("pohikaust/pildid/uus.png"));
         klahvUusOst = new Button("", uus);
-        klahvUusOst.setOnAction(event -> {    //kustutab toodete akna tühjaks
-            cartField.setText("");
+        klahvUusOst.setOnAction(event -> {
+            cartField.setText("");//tühjendame ostunimekirja teksti
+            //võimaldame tootenuppude kasutamise
             kohupiimaSai.setDisable(false);
             rosinaSai.setDisable(false);
             mooniRull.setDisable(false);
             kaneeliRull.setDisable(false);
             dallaseSai.setDisable(false);
             moskvaSai.setDisable(false);
+            //taastame positsiooni ja loenduri muutujate algväärtused
             offSet1= -1; offSet2= -1; offSet3= -1; offSet4= -1; offSet5= -1; offSet6 = -1; offSet7 = -1;
             counter1= 0; counter2= 0; counter3= 0; counter4= 0; counter5= 0; counter6 = 0;
         });
@@ -188,22 +199,14 @@ public class Klahvid {
 
     public Button getMoskvaSaiLabel() {
         return moskvaSai;
-
     }
 
     public Button getKlahvLopetaOst() {
         return klahvLopetaOst;
     }
 
-
     public Button getKlahvUusOst () {
         return klahvUusOst;
     }
 
-    /*public Button getKlahvLopetaPaev() {
-        return klahvLopetaPaev;
-    } */
-
 }
-
-

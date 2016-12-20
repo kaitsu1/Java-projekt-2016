@@ -57,6 +57,7 @@ public class Kassa extends Application {
                 BackgroundRepeat.NO_REPEAT, BackgroundRepeat.NO_REPEAT, BackgroundPosition.DEFAULT,
                 BackgroundSize.DEFAULT);
     }
+
     //Luuakse kassaekraan
     public void newGameScene() {
         taust = new StackPane();
@@ -70,8 +71,7 @@ public class Kassa extends Application {
         ostuKorv = new TextArea();
         ostuKorv.setPrefColumnCount(1);
         ostuKorv.setBackground(Background.EMPTY);
-        ostuKorv.setEditable(false);
-        ostuKorv.setWrapText(true);
+        ostuKorv.setEditable(false);//ei ole ette nähtud lisatud tooteid käsitsi muuta
         ostuKorv.setFont(Font.font("Serif", 40));
         grid.add(ostuKorv, 6, 2, 5, 2);
 
@@ -80,18 +80,19 @@ public class Kassa extends Application {
 
         Scene scene = new Scene(taust);
         stage.setScene(scene);
+        stage.centerOnScreen();//kassa avaneb keset ekraani
         stage.setOnCloseRequest(event -> System.exit(0));
     }
 
     //Klahvide asukohad ekraanil (GridPane-s).
     private void looKlahvistik(Klahvid klahvistik) {
-        grid.add(klahvistik.getKohupiimaSaiLabel(), 2, 2);
+        grid.add(klahvistik.getKohupiimaSaiLabel(), 2, 2);//rida,veerg
         grid.add(klahvistik.getRosinaSaiLabel(), 3, 2);
         grid.add(klahvistik.getMooniRullLabel(), 4, 2);
         grid.add(klahvistik.getKaneeliRullLabel(), 2, 3);
         grid.add(klahvistik.getDallaseSaiLabel(), 3, 3);
         grid.add(klahvistik.getMoskvaSaiLabel(), 4, 3);
-        grid.add(klahvistik.getKlahvLopetaOst(), 2, 5);
+        grid.add(klahvistik.getKlahvLopetaOst(), 4, 4);
         grid.add(klahvistik.getKlahvUusOst(), 2, 4);
     }
 
@@ -103,17 +104,16 @@ public class Kassa extends Application {
         gridPaneResult.getRowConstraints().add(new RowConstraints(10));
         gridPaneResult.getRowConstraints().add(new RowConstraints(100));
         gridPaneResult.getRowConstraints().add(new RowConstraints(200));
-        gridPaneResult.getRowConstraints().add(new RowConstraints(200));
-        gridPaneResult.getRowConstraints().add(new RowConstraints(200));
-        gridPaneResult.getRowConstraints().add(new RowConstraints(200));
-        gridPaneResult.getRowConstraints().add(new RowConstraints(1));
+        gridPaneResult.getRowConstraints().add(new RowConstraints(250));
+        gridPaneResult.getRowConstraints().add(new RowConstraints(100));
+        gridPaneResult.getRowConstraints().add(new RowConstraints(100));
         gridPaneResult.getColumnConstraints().add(new ColumnConstraints(0));
         gridPaneResult.getColumnConstraints().add(new ColumnConstraints(50));
         gridPaneResult.getColumnConstraints().add(new ColumnConstraints(200));
         gridPaneResult.getColumnConstraints().add(new ColumnConstraints(200));
         gridPaneResult.getColumnConstraints().add(new ColumnConstraints(200));
         gridPaneResult.getColumnConstraints().add(new ColumnConstraints(50));
-        gridPaneResult.getColumnConstraints().add(new ColumnConstraints(566));
+        gridPaneResult.getColumnConstraints().add(new ColumnConstraints(500));
         return gridPaneResult;
     }
 
