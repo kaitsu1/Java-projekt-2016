@@ -25,7 +25,6 @@ public class Kassa extends Application {
     TextArea ostuKorv;
     BackgroundImage taustapilt;
 
-    //Sisselogimine aken
     @Override
     public void start(Stage primaryStage) throws Exception {
         stage = primaryStage;
@@ -53,7 +52,7 @@ public class Kassa extends Application {
         stage.setScene(scene);
         stage.setOnCloseRequest(event -> System.exit(0));
     }
-
+    //sisselogimise aken
     public void loginKuva() {
         VBox vbox = new VBox();
         Scene login = new Scene(vbox, 300, 150);
