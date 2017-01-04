@@ -27,12 +27,37 @@ public class Kassa extends Application {
 
     //Sisselogimine aken
     @Override
-    public void start(Stage loginStage) throws Exception {
+    public void start(Stage primaryStage) throws Exception {
+        stage = primaryStage;
+        kuvaAvaKuva();
+        primaryStage.show();
+    }
+
+    //Avakuva. Kassaaparaat ilmub peale "Sisene poodi" nupu vajutamist
+    private void kuvaAvaKuva(){
+        Pane startTaust = new Pane();
+        BackgroundImage startTaustPilt = getBackGroundImage("pohikaust/pildid/avaleht.png");
+        startTaust.setBackground(new Background(startTaustPilt));
+
+        ImageView alusta = new ImageView(new Image("pohikaust/pildid/sisene.png"));
+        Button klahvAlusta = new Button("", alusta);
+        klahvAlusta.setLayoutX(70);
+        klahvAlusta.setLayoutY(250);
+        klahvAlusta.setOnAction(event -> loginKuva());
+        klahvAlusta.setPadding(Insets.EMPTY);
+        klahvAlusta.setStyle("-fx-background-color: transparent");
+
+        startTaust.getChildren().add(klahvAlusta);
+
+        Scene scene = new Scene(startTaust, 600, 400);
+        stage.setScene(scene);
+        stage.setOnCloseRequest(event -> System.exit(0));
+    }
+
+    public void loginKuva() {
         VBox vbox = new VBox();
         Scene login = new Scene(vbox, 300, 150);
-        loginStage.setScene(login);
-        stage = loginStage;
-        loginStage.show();
+        stage.setScene(login);
 
         Label pealkiri = new Label("Sisesta parool:");
         TextField paroolField = new TextField();
@@ -52,28 +77,6 @@ public class Kassa extends Application {
         });
 
     }
-
-    //Avakuva. Kassaaparaat ilmub peale "Sisene poodi" nupu vajutamist
-   /* private void kuvaAvaKuva(){
-        Pane startTaust = new Pane();
-        BackgroundImage startTaustPilt = getBackGroundImage("pohikaust/pildid/avaleht.png");
-        startTaust.setBackground(new Background(startTaustPilt));
-
-        ImageView alusta = new ImageView(new Image("pohikaust/pildid/sisene.png"));
-        Button klahvAlusta = new Button("", alusta);
-        klahvAlusta.setLayoutX(70);
-        klahvAlusta.setLayoutY(250);
-        klahvAlusta.setOnAction(event -> newKassaScene());
-        klahvAlusta.setPadding(Insets.EMPTY);
-        klahvAlusta.setStyle("-fx-background-color: transparent");
-
-        startTaust.getChildren().add(klahvAlusta);
-
-        Scene scene = new Scene(startTaust, 600, 400);
-        stage.setScene(scene);
-        stage.setOnCloseRequest(event -> System.exit(0));
-    }
-    */
 
     //Taustapilt
     private BackgroundImage getBackGroundImage(String backgroundImageFile) {
