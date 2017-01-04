@@ -4,7 +4,9 @@ import javafx.application.Application;
 import javafx.geometry.Insets;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
+import javafx.scene.control.Label;
 import javafx.scene.control.TextArea;
+import javafx.scene.control.TextField;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.scene.layout.*;
@@ -23,15 +25,36 @@ public class Kassa extends Application {
     TextArea ostuKorv;
     BackgroundImage taustapilt;
 
+    //Sisselogimine aken
     @Override
-    public void start(Stage primaryStage) throws Exception {
-        stage = primaryStage;
-        kuvaAvaKuva();
-        primaryStage.show();
+    public void start(Stage loginStage) throws Exception {
+        VBox vbox = new VBox();
+        Scene login = new Scene(vbox, 300, 150);
+        loginStage.setScene(login);
+        stage = loginStage;
+        loginStage.show();
+
+        Label pealkiri = new Label("Sisesta parool:");
+        TextField paroolField = new TextField();
+        Button submitButton = new Button("Login");
+
+        vbox.getChildren().addAll(pealkiri, paroolField, submitButton);
+
+        submitButton.setOnAction(event -> {
+            String parool = paroolField.getText();
+            if (parool.equals("Saiake")){
+                System.out.println("Parool on õige");
+                newKassaScene();
+            } else {
+                pealkiri.setText("Parool vale, sisesta uuesti");
+                paroolField.setText("");
+            }
+        });
+
     }
 
     //Avakuva. Kassaaparaat ilmub peale "Sisene poodi" nupu vajutamist
-    private void kuvaAvaKuva(){
+   /* private void kuvaAvaKuva(){
         Pane startTaust = new Pane();
         BackgroundImage startTaustPilt = getBackGroundImage("pohikaust/pildid/avaleht.png");
         startTaust.setBackground(new Background(startTaustPilt));
@@ -40,7 +63,7 @@ public class Kassa extends Application {
         Button klahvAlusta = new Button("", alusta);
         klahvAlusta.setLayoutX(70);
         klahvAlusta.setLayoutY(250);
-        klahvAlusta.setOnAction(event -> newGameScene());
+        klahvAlusta.setOnAction(event -> newKassaScene());
         klahvAlusta.setPadding(Insets.EMPTY);
         klahvAlusta.setStyle("-fx-background-color: transparent");
 
@@ -50,6 +73,7 @@ public class Kassa extends Application {
         stage.setScene(scene);
         stage.setOnCloseRequest(event -> System.exit(0));
     }
+    */
 
     //Taustapilt
     private BackgroundImage getBackGroundImage(String backgroundImageFile) {
@@ -59,7 +83,7 @@ public class Kassa extends Application {
     }
 
     //Luuakse kassaekraan
-    public void newGameScene() {
+    public void newKassaScene() {
         taust = new StackPane();
         taustapilt = getBackGroundImage("pohikaust/pildid/taust.png");
         taust.setBackground(new Background(taustapilt));
@@ -86,7 +110,7 @@ public class Kassa extends Application {
 
     //Klahvide asukohad ekraanil (GridPane-s).
     private void looKlahvistik(Klahvid klahvistik) {
-        grid.add(klahvistik.getKohupiimaSaiLabel(), 2, 2);//rida,veerg
+        grid.add(klahvistik.getKohupiimaSaiLabel(), 2, 2);//veerg, rida
         grid.add(klahvistik.getRosinaSaiLabel(), 3, 2);
         grid.add(klahvistik.getMooniRullLabel(), 4, 2);
         grid.add(klahvistik.getKaneeliRullLabel(), 2, 3);
