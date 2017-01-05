@@ -56,7 +56,7 @@ public class Kassa extends Application {
     //sisselogimise aken
     public void loginKuva() {
         VBox vbox = new VBox();
-        Scene login = new Scene(vbox, 300, 150);
+        Scene login = new Scene(vbox, 600, 400);
         stage.setScene(login);
 
         Label pealkiri = new Label("Sisesta parool:");
@@ -102,7 +102,7 @@ public class Kassa extends Application {
         ostuKorv.setFont(Font.font("Serif", 40));
         grid.add(ostuKorv, 6, 2, 5, 2);
 
-        Klahvid klahvistik = new Klahvid(ostuKorv, this);
+        Klahvid klahvistik = new Klahvid(ostuKorv);
         looKlahvistik(klahvistik);;
 
         Scene scene = new Scene(taust);

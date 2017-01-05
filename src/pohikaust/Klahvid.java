@@ -27,7 +27,7 @@ public class Klahvid {
     //muutujad iga toote loendamiseks, kui toote nupule vajutatakse rohkem kui korra, samuti lõpphinna arvutamiseks
     int counter1= 0, counter2= 0, counter3= 0, counter4= 0, counter5= 0, counter6 = 0;
 
-    public Klahvid(TextArea cartField, Kassa currentGame) {
+    public Klahvid(TextArea cartField) {
 
         ImageView klahv1 = new ImageView(new Image("pohikaust/pildid/kohupiimasai.png"));
         kohupiimaSai = new Button("", klahv1);
@@ -35,9 +35,6 @@ public class Klahvid {
         kohupiimaSai.setOnAction(event -> {
             counter1++; //loendab toote nupule vajutamisi
             String nimekiri1 = counter1+"x Kohupiimapirukas "+price1+"€"; //koostab ostunimekirja mineva teksti
-            /*kuna toote asukoht ostunimekirjas määratakse esimesel toote nupule vajutamisel, kasutades selleks
-              TextArea sisu pikkust, on vaja hoolitseda, et nimekiri ei läheks katki, kui toodete arv kasvab ühest
-              märgist kahe või kolme märgini. Selleks lisame iga toote tekstile vastava arvu tühikuid*/
             if (counter1 < 10) nimekiri1 = nimekiri1+"  ";
             if (10<=counter1 && counter1<100) nimekiri1 = nimekiri1+" ";
             nimekiri1=nimekiri1+"\n"; //iga toode eraldi real
