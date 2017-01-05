@@ -15,7 +15,7 @@ import javafx.stage.Stage;
 
 /**
  * Created by kaits on 20/10/16.
- * Peamine klass
+ * Peamine klass.
  */
 public class Kassa extends Application {
 
@@ -42,6 +42,7 @@ public class Kassa extends Application {
         Button klahvAlusta = new Button("", alusta);
         klahvAlusta.setLayoutX(70);
         klahvAlusta.setLayoutY(250);
+        klahvAlusta.setOnAction(event -> newKassaScene());
         klahvAlusta.setOnAction(event -> loginKuva());
         klahvAlusta.setPadding(Insets.EMPTY);
         klahvAlusta.setStyle("-fx-background-color: transparent");
