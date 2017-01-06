@@ -24,6 +24,7 @@ public class Kassa extends Application {
     Stage lava;
     TextArea ostuKorv;
     BackgroundImage taustapilt;
+    BackgroundImage avaTaustPilt;
 
     @Override
     public void start(Stage primaryStage) throws Exception {
@@ -34,9 +35,9 @@ public class Kassa extends Application {
 
     //Avakuva. Kassaaparaat ilmub peale "Sisene poodi" nupu vajutamist
     private void kuvaAvaKuva(){
-        Pane startTaust = new Pane();
-        BackgroundImage startTaustPilt = getTaustaPilt("pohikaust/pildid/avaleht.png");
-        startTaust.setBackground(new Background(startTaustPilt));
+        Pane avaPaneel = new Pane();
+        avaTaustPilt = getBackgroundImage("pohikaust/pildid/avaleht.png");
+        avaPaneel.setBackground(new Background(avaTaustPilt));
 
         ImageView alusta = new ImageView(new Image("pohikaust/pildid/sisene.png"));
         Button klahvAlusta = new Button("", alusta);
@@ -47,9 +48,9 @@ public class Kassa extends Application {
         klahvAlusta.setPadding(Insets.EMPTY);
         klahvAlusta.setStyle("-fx-background-color: transparent");
 
-        startTaust.getChildren().add(klahvAlusta);
+        avaPaneel.getChildren().add(klahvAlusta);
 
-        Scene scene = new Scene(startTaust, 600, 400);
+        Scene scene = new Scene(avaPaneel, 600, 400);
         lava.setScene(scene);
         lava.setOnCloseRequest(event -> System.exit(0));
     }
@@ -79,7 +80,7 @@ public class Kassa extends Application {
     }
 
     //Taustapilt
-    private BackgroundImage getTaustaPilt(String backgroundImageFile) {
+    private BackgroundImage getBackgroundImage(String backgroundImageFile) {
         return new BackgroundImage(new Image(backgroundImageFile, 750, 500, false, true),
                 BackgroundRepeat.NO_REPEAT, BackgroundRepeat.NO_REPEAT, BackgroundPosition.DEFAULT,
                 BackgroundSize.DEFAULT);
@@ -88,7 +89,7 @@ public class Kassa extends Application {
     //Luuakse kassaekraan
     public void kassaStseen() {
         taust = new StackPane();
-        taustapilt = getTaustaPilt("pohikaust/pildid/taust.png");
+        taustapilt = getBackgroundImage("pohikaust/pildid/taust.png");
         taust.setBackground(new Background(taustapilt));
 
         ruudustik = looKassaRuudustik();
