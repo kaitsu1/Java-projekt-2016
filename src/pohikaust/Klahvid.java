@@ -174,27 +174,27 @@ public class Klahvid {
         klahvUusOst.setStyle("-fx-background-color: transparent");
     }
 
-    public Button getKohupiimaSaiLabel() {
+    public Button getKohupiimaSai() {
         return kohupiimaSai;
     }
 
-    public Button getRosinaSaiLabel() {
+    public Button getRosinaSai() {
         return rosinaSai;
     }
 
-    public Button getMooniRullLabel() {
+    public Button getMooniRull() {
         return mooniRull;
     }
 
-    public Button getKaneeliRullLabel() {
+    public Button getKaneeliRull() {
         return kaneeliRull;
     }
 
-    public Button getDallaseSaiLabel() {
+    public Button getDallaseSai() {
         return dallaseSai;
     }
 
-    public Button getMoskvaSaiLabel() {
+    public Button getMoskvaSai() {
         return moskvaSai;
     }
 
