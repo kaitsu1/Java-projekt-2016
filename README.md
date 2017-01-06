@@ -16,6 +16,14 @@ Toodete arvu saab suurendada valitud tooteklahvile nii mitu korda vajutades, kui
 Ostu muutmiseks või uue ostu sooritamiseks kasutatakse klahvi "Uus ost".
 Ostu lõpetamiseks on klahv "Lõpeta ost", mis kuvab ostetud saiakeste kogusumma.
 
-#### Muud märkmed
+#### Litsents
+Kõigile lubatud kasutamiseks.
 
 #### Kasutatud materjalid
+TextArea-s teksti saamine eraldi ridadele - http://stackoverflow.com/questions/2088016/add-a-new-line-to-the-end-of-a-jtextarea
+
+Paddingu sättimine, et klahvid ei hüpleks - http://stackoverflow.com/questions/27338844/remove-javafx-button-padding
+
+Klahvidelt raamide kaotamine - http://www.java2s.com/Code/Java/JavaFX/fxbackgroundcolortransparent.htm
+
+Teksti lisamine/asendamine TextArea-s - http://docs.oracle.com/javase/tutorial/uiswing/components/textarea.html
