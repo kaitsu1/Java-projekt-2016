@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2613b2d2-bf21-4044-8b0a-b8137f19c87c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pohikaust/Kassa.java" afterPath="$PROJECT_DIR$/src/pohikaust/Kassa.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pohikaust/Klahvid.java" afterPath="$PROJECT_DIR$/src/pohikaust/Klahvid.java" />
     </list>
     <ignored path="Java-projekt-2016.iws" />
@@ -39,8 +38,8 @@
       <file leaf-file-name="Klahvid.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/pohikaust/Klahvid.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="149">
-              <caret line="196" column="30" selection-start-line="196" selection-start-column="30" selection-end-line="196" selection-end-column="30" />
+            <state relative-caret-position="-803">
+              <caret line="27" column="86" selection-start-line="27" selection-start-column="86" selection-end-line="27" selection-end-column="86" />
               <folding />
             </state>
           </provider>
@@ -515,8 +514,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pohikaust/Klahvid.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="196" column="30" selection-start-line="196" selection-start-column="30" selection-end-line="196" selection-end-column="30" />
+        <state relative-caret-position="-803">
+          <caret line="27" column="86" selection-start-line="27" selection-start-column="86" selection-end-line="27" selection-end-column="86" />
           <folding />
         </state>
       </provider>
