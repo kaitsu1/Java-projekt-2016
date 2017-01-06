@@ -26,4 +26,4 @@ Paddingu sättimine, et klahvid ei hüpleks - http://stackoverflow.com/questions
 
 Klahvidelt raamide kaotamine - http://www.java2s.com/Code/Java/JavaFX/fxbackgroundcolortransparent.htm
 
-Teksti lisamine/asendamine TextArea-s - http://docs.oracle.com/javase/tutorial/uiswing/components/textarea.html
+Teksti lisamine/asendamine TextArea-s - http://o7planning.org/en/11097/javafx-textarea-tutorial http://www.programcreek.com/java-api-examples/index.php?api=javafx.scene.control.TextArea http://www.java2s.com/Code/Java/JavaFX/OverridereplaceTextandreplaceSelectiontocreatecustomizedTextField.htm
