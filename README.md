@@ -1,7 +1,7 @@
 # Java-projekt-2016
 # Pagaripood
 Projekt on koostatud IT Kolledži aine I200 Programmeerimise algkursus raames. 
-Projekti autor: Kairi Papstel 2016/2017
+Projekti autor: KP 2016/2017
 
 #### Projekti kirjeldus
 Projekt on pagaripoe kassa, kus müüja peab esmalt poodi sisse logima ja seejärel saab ostetud saiakeste klahvidele vajutades koostada ostunimekirja. Ostu muutmiseks või uue ostu sooritamiseks kasutab müüja klahvi "Uus ost" ja ostu lõpetamiseks klahvi "Lõpeta ost", mis arvutab väja ostetud saiakeste kogusumma.
